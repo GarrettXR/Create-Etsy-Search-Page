@@ -164,7 +164,7 @@ var items = {
           "full_width":570
         },
         {
-          "listing_image_id":1417808178,
+          "ilsting_image_id":1417808178,
           "hex_code":"91746C",
           "red":145,
           "green":116,
