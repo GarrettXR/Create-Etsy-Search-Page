@@ -170,7 +170,7 @@ button{
 }
 
 #sidebar{
-	height: 1000px;
+	height: 1500px;
 	width: 300px;
     position: relative;
     left: 100px;
@@ -195,10 +195,6 @@ button{
 	background-color: transparent;
 }
 
-.ls{
-	border-bottom: 2px solid #eee;
-}
-
 .lecheck{
 	position: relative;
 	left: 5px;
@@ -219,12 +215,16 @@ button{
 }
 .cat{
 	font-size: 15px;
+	border-bottom: 2px solid #eee;
 }
 
 #icons{
 	display: flex;
 	flex-wrap: wrap;
 	text-overflow: ellipsis;
+	position: relative;
+	left: 150px;
+	top: -1350px;
 }
 
 .Lil{
@@ -235,11 +235,16 @@ button{
 }
 
 .gall{
-	margin-right: 10px;
+	cursor: pointer;
+}
+
+.gall:hover{
+	text-decoration: underline;
 }
 
 .ping{
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .box{
@@ -280,4 +285,19 @@ button{
 #price{
 	font-size: 15px;
 	font-weight: bolder;
+}
+
+.subs{
+	height: 30px;
+	width: 50px;
+	position: relative;
+	top: 5px;
+}
+
+.boxo{
+	height: 30px;
+}
+
+.cat1{
+	font-size: 20px;
 }
